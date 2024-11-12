@@ -20,7 +20,7 @@ class RouteManager {
         );
 
       default:
-        throw Exception('Check pages. The one you used does not exist!');
+        throw Exception('Check pages. The one you used does not exist!!');
     }
   }
 }
